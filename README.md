@@ -1,11 +1,11 @@
 # homebrew-git-rt
 
-Homebrew tap for [git-rt](https://github.com/delianides/git-rt) — a real-time terminal dashboard for git changes.
+Homebrew tap for [git-rt](https://github.com/upsertco/git-rt) — a real-time terminal dashboard for git changes.
 
 ## Install
 
 ```bash
-brew tap delianides/git-rt
+brew tap upsertco/git-rt
 brew install git-rt
 ```
 
@@ -20,5 +20,5 @@ brew upgrade git-rt
 
 ```bash
 brew uninstall git-rt
-brew untap delianides/git-rt
+brew untap upsertco/git-rt
 ```

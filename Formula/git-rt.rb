@@ -1,24 +1,24 @@
 class GitRt < Formula
   desc "A real-time terminal dashboard for git changes"
-  homepage "https://github.com/delianides/git-rt"
+  homepage "https://github.com/upsertco/git-rt"
   version "1.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/delianides/git-rt/releases/download/v1.3.0/git-rt-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/upsertco/git-rt/releases/download/v1.3.0/git-rt-aarch64-apple-darwin.tar.xz"
       sha256 "0a67dedd57051ddf52ad7bd35203fd529b33a35006bc0b056762360d23fe044b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/delianides/git-rt/releases/download/v1.3.0/git-rt-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/upsertco/git-rt/releases/download/v1.3.0/git-rt-x86_64-apple-darwin.tar.xz"
       sha256 "a4d6106378a1be1e878ee04fc66f3936599c280d97e8973c5cd8f5923272e077"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/delianides/git-rt/releases/download/v1.3.0/git-rt-aarch64-unknown-linux-musl.tar.xz"
+      url "https://github.com/upsertco/git-rt/releases/download/v1.3.0/git-rt-aarch64-unknown-linux-musl.tar.xz"
       sha256 "9bb9b05db568e722c97c22c8539b87f22b346ab1164866ccaecd142bb6ee6827"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/delianides/git-rt/releases/download/v1.3.0/git-rt-x86_64-unknown-linux-musl.tar.xz"
+      url "https://github.com/upsertco/git-rt/releases/download/v1.3.0/git-rt-x86_64-unknown-linux-musl.tar.xz"
       sha256 "3f6ee7e50102d2335876c385fea2126fbbea2376e5dc4b454ae93b428a01f81c"
     end
   end

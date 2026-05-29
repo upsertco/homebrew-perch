@@ -1,25 +1,25 @@
 class Perch < Formula
   desc "A real-time terminal dashboard for git changes"
   homepage "https://github.com/upsertco/perch"
-  version "1.5.1"
+  version "1.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/upsertco/perch/releases/download/v1.5.1/perch-aarch64-apple-darwin.tar.xz"
-      sha256 "68e705ed184ff46b33922df1b042bb720b1bb464162daf45ae01b00a38fe4903"
+      url "https://github.com/upsertco/perch/releases/download/v1.6.0/perch-aarch64-apple-darwin.tar.xz"
+      sha256 "ae0373f7506c1dee2be340d22ef2033be399353b04d33590efc0b398267a1316"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/upsertco/perch/releases/download/v1.5.1/perch-x86_64-apple-darwin.tar.xz"
-      sha256 "eb6475147c3224c715d2fd871f76d6afa25786cf998c2fc1402dcd643b5dffb2"
+      url "https://github.com/upsertco/perch/releases/download/v1.6.0/perch-x86_64-apple-darwin.tar.xz"
+      sha256 "6824f31b4375b4137668594029db6530a05524e0806714657b680e81cf1a4f13"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/upsertco/perch/releases/download/v1.5.1/perch-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "7879ebba79f81b8cf4fe22553cd99af1718a03f85a80c396b3d756fe669a0600"
+      url "https://github.com/upsertco/perch/releases/download/v1.6.0/perch-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "87957da4706cdf4d4b7aaba35337ca669f6e34f95aecf767707d902167f65d1b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/upsertco/perch/releases/download/v1.5.1/perch-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "6a34786b8f701fbba044ab4914b831e59aeb9d0493f4daafcfe88da4001ad568"
+      url "https://github.com/upsertco/perch/releases/download/v1.6.0/perch-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "73eb623aab17758ac3533196063aa9f678afacc17a9caf4bb53832e8b7c7df37"
     end
   end
   license "MIT"
